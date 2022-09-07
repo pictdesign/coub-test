@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 11.5%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 49px 110px;
+  background-color: #f2f2f2;
+
+  &__link {
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 50px;
+    color: #000000;
+    transition: opacity 0.3s linear;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    padding: 41px 28px;
+
+    &__link {
+      font-size: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+    &__link {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+}
+

@@ -1,0 +1,57 @@
+.burger {
+  display: none;
+  z-index: 10;
+  align-items: center;
+
+  &__button {
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 14px;
+  }
+
+    &__button-lines::before,
+    &__button-lines::after,
+    &__button-lines {
+      position: absolute;
+      width: 100%;
+      background-color: black;
+      height: 1.5px;
+      transition: 0.4s;
+    }
+
+    &__button-lines {
+      top: 35%;
+    }
+
+    &__button-lines::before {
+      top: -8px;
+      content: "";
+    }
+
+    &__button-lines::after {
+      top: 8px;
+      content: "";
+    }
+
+    &__button_active &__button-lines {
+      background-color: transparent;
+    }
+
+    &__button_active &__button-lines::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    &__button_active &__button-lines::after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+}

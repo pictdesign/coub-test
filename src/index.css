@@ -1,0 +1,6 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/css/oswald.css');
+
+body {
+  font-family: 'Oswald-Regular', sans-serif;
+}

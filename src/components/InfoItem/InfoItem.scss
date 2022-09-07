@@ -1,0 +1,158 @@
+.info-item {
+  display: flex;
+  flex-direction: column;
+  padding: 47px 47px 59px 50px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+
+  &__header {
+    display: flex;
+    gap: 62px;
+  }
+
+  &__icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #6e63f7;
+
+    &_active {
+      display: none;
+    }
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__text {
+    padding-top: 40px;
+    font-family: Arial, serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    padding-top: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all 0.3s linear;
+
+    &:hover {
+      gap: 39px;
+    }
+
+    &-icon {
+      width: 24px;
+      height: 12px;
+      background-image: url("../../assets/icons/arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info-item {
+    padding-top: 76px;
+    padding-left: 54px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      max-width: 58%;
+    }
+
+    &__icon {
+      display: none;
+
+      &_active {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-size: 64%;
+        box-sizing: content-box;
+        margin-bottom: 9px;
+        margin-right: 15px;
+      }
+    }
+
+    &__title {
+      margin: 0;
+    }
+
+    &__text {
+      word-break: break-all;
+      max-width: 100%;
+      padding-top: 25px;
+    }
+
+    &__link {
+      padding-top: 50px;
+      gap: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .info-item {
+    padding: 0;
+    padding-top: 24px;
+    padding-left: 22px;
+    padding-bottom: 22px;
+
+    &__icon {
+      background-size: 90%;
+      width: 50px;
+      height: 50px;
+    }
+
+    &__icon_active {
+      display: none;
+    }
+
+    &__header {
+      gap: 19px;
+    }
+
+    &__title {
+      margin: 0;
+      font-size: 24px;
+      line-height: 48px;
+    }
+
+    &__text {
+      width: 85%;
+      word-break: break-all;
+      padding-top: 22px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid #D9D9D9;
+      font-size: 14px;
+      line-height: 18px;
+      
+    }
+
+    &__link {
+      gap: 13px;
+      padding-top: 19px;
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+}
