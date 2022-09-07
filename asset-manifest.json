@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/coub-test/static/css/main.842bb2ef.css",
+    "main.js": "/coub-test/static/js/main.ae7dccc1.js",
+    "static/media/Oswald-Variable.ttf": "/coub-test/static/media/Oswald-Variable.5a70d029a2da84dc1e88.ttf",
+    "static/media/Oswald-Regular.ttf": "/coub-test/static/media/Oswald-Regular.41a45225428ed8751c7d.ttf",
+    "static/media/Oswald-Light.ttf": "/coub-test/static/media/Oswald-Light.79800f77cb3c5a2f5da5.ttf",
+    "static/media/Oswald-SemiBold.ttf": "/coub-test/static/media/Oswald-SemiBold.c6dfd831476686e2624c.ttf",
+    "static/media/Oswald-Bold.ttf": "/coub-test/static/media/Oswald-Bold.ce643bbd6db9399a2afd.ttf",
+    "static/media/Oswald-Medium.ttf": "/coub-test/static/media/Oswald-Medium.57a575ed19fc348e75ab.ttf",
+    "static/media/Oswald-ExtraLight.ttf": "/coub-test/static/media/Oswald-ExtraLight.451f37c53f1018e3d6a3.ttf",
+    "static/media/Oswald-Variable.woff2": "/coub-test/static/media/Oswald-Variable.15ed073d18e4c4be819b.woff2",
+    "static/media/banner.svg": "/coub-test/static/media/banner.3c06e24b8c02fbc9c253a7c64d9f7908.svg",
+    "static/media/theme2.svg": "/coub-test/static/media/theme2.285552e19e05f9db907007756f329e1e.svg",
+    "static/media/adv3.svg": "/coub-test/static/media/adv3.151a1b8ad554a7fc5ff94e454e89d7c9.svg",
+    "static/media/theme1.svg": "/coub-test/static/media/theme1.7857a9a36d887300fefc44662a7f75e9.svg",
+    "static/media/Oswald-SemiBold.woff": "/coub-test/static/media/Oswald-SemiBold.fa9edbd033ed949ccb98.woff",
+    "static/media/Oswald-Medium.woff": "/coub-test/static/media/Oswald-Medium.16907b1dbf0d1fbe2199.woff",
+    "static/media/Oswald-Variable.woff": "/coub-test/static/media/Oswald-Variable.3a031b5165e88a705a3d.woff",
+    "static/media/Oswald-Bold.woff": "/coub-test/static/media/Oswald-Bold.65b0ea8e73f9acb10836.woff",
+    "static/media/Oswald-Light.woff": "/coub-test/static/media/Oswald-Light.87630b2624798e1acee1.woff",
+    "static/media/Oswald-Regular.woff": "/coub-test/static/media/Oswald-Regular.cb57f5dc453a9059a5a6.woff",
+    "static/media/Oswald-ExtraLight.woff": "/coub-test/static/media/Oswald-ExtraLight.052fed6730b24642b13d.woff",
+    "static/media/adv2.svg": "/coub-test/static/media/adv2.03f3f6b9dc608d0a342abd4870bfd8ee.svg",
+    "static/media/adv1.svg": "/coub-test/static/media/adv1.0f996ded7a7fbd73248ac186c3e9f15e.svg",
+    "static/media/adv4.svg": "/coub-test/static/media/adv4.dcb284f4d1b73b33d739aeb603e351b0.svg",
+    "static/media/logo.svg": "/coub-test/static/media/logo.6dc5438b225c128386d1ba4263425ee0.svg",
+    "static/media/Oswald-SemiBold.woff2": "/coub-test/static/media/Oswald-SemiBold.3a95bfa8a43aadce620a.woff2",
+    "static/media/Oswald-Medium.woff2": "/coub-test/static/media/Oswald-Medium.fc9abcef8c6ef4c2f8b7.woff2",
+    "static/media/Oswald-Light.woff2": "/coub-test/static/media/Oswald-Light.ab799cbb39c97f90d34e.woff2",
+    "static/media/Oswald-Bold.woff2": "/coub-test/static/media/Oswald-Bold.2db6b978d3e1f791c60f.woff2",
+    "static/media/Oswald-Regular.woff2": "/coub-test/static/media/Oswald-Regular.ddf65f9a38f6ffbb9ba9.woff2",
+    "static/media/Oswald-ExtraLight.woff2": "/coub-test/static/media/Oswald-ExtraLight.cf2f1ee085c14c035cfb.woff2",
+    "index.html": "/coub-test/index.html",
+    "static/media/arrow.svg": "/coub-test/static/media/arrow.8ff858278deaca9ad77c.svg",
+    "main.842bb2ef.css.map": "/coub-test/static/css/main.842bb2ef.css.map",
+    "main.ae7dccc1.js.map": "/coub-test/static/js/main.ae7dccc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.842bb2ef.css",
+    "static/js/main.ae7dccc1.js"
+  ]
+}
