@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coub-test/static/css/main.842bb2ef.css",
+    "main.css": "/coub-test/static/css/main.a5d2fa03.css",
     "main.js": "/coub-test/static/js/main.ae7dccc1.js",
     "static/media/Oswald-Variable.ttf": "/coub-test/static/media/Oswald-Variable.5a70d029a2da84dc1e88.ttf",
     "static/media/Oswald-Regular.ttf": "/coub-test/static/media/Oswald-Regular.41a45225428ed8751c7d.ttf",
@@ -33,11 +33,11 @@
     "static/media/Oswald-ExtraLight.woff2": "/coub-test/static/media/Oswald-ExtraLight.cf2f1ee085c14c035cfb.woff2",
     "index.html": "/coub-test/index.html",
     "static/media/arrow.svg": "/coub-test/static/media/arrow.8ff858278deaca9ad77c.svg",
-    "main.842bb2ef.css.map": "/coub-test/static/css/main.842bb2ef.css.map",
+    "main.a5d2fa03.css.map": "/coub-test/static/css/main.a5d2fa03.css.map",
     "main.ae7dccc1.js.map": "/coub-test/static/js/main.ae7dccc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.842bb2ef.css",
+    "static/css/main.a5d2fa03.css",
     "static/js/main.ae7dccc1.js"
   ]
 }
